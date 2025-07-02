@@ -25,7 +25,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#home" data-i18n="about"></a>
+                        <a class="nav-link" href="#about" data-i18n="about"></a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#details" data-i18n="details"></a>
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link" href="#skills" data-i18n="skills"></a>
@@ -45,35 +48,45 @@
         </div>
     </nav>
 
-    <div class="row d-flex align-items-center justify-content-center h-100" id="about">
-        <div class="col-md-6 text-section d-flex flex-column h-100">
-            <h1 class="animated-title" data-i18n="about-title"></h1>
-            <p class="about-description" data-i18n="about-description"></p>
+    <div class="row d-flex align-items-center justify-content-around h-100 p-5" id="about">
+        <div class="col-md-6 d-flex flex-column justify-content-center h-100">
+            <div class="text-section">
+                <h1 class="animated-title">
+                    <ol>
+                        <li><span class="title" data-i18n="name-1"></span></li>
+                        <li><span class="title" data-i18n="name-2"></span></li>
+                    </ol>
+                </h1>
+                <p class="about-description" data-i18n="about-description"></p>
+                <p class="about-description" data-i18n="about-description-2"></p>
+                <p class="about-description" data-i18n="about-description-3"></p>
 
-            <div class="contact-links">
-                <ul class="d-flex gap-4 list-unstyled align-items-center">
-                    <li><a href="mailto:work.xuanbao@example.com" class="text-decoration-none text-white">
-                            <i class="fa-solid fa-envelope"></i></a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/txbao04/" target="_blank"
-                            class="text-decoration-none text-white">
-                            <i class="fa-brands fa-linkedin"></i></a>
-                    </li>
-                    <li><a href="https://github.com/barozzxb" target="_blank" class="text-decoration-none text-white">
-                            <i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li><a href="https://www.facebook.com/baotrspr.04/" target="_blank"
-                            class="text-decoration-none text-white">
-                            <i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/baotrspr/" target="_blank"
-                            class="text-decoration-none text-white">
-                            <i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li><a href="https://www.youtube.com/@barozzxb" target="_blank"
-                            class="text-decoration-none text-white">
-                            <i class="fa-brands fa-youtube"></i></a>
-                </ul>
+                <div class="contact-links">
+                    <ul class="d-flex gap-4 list-unstyled align-items-center">
+                        <li><a href="mailto:work.xuanbao@example.com" class="icon-link text-decoration-none text-white">
+                                <i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/txbao04/" target="_blank"
+                                class="text-decoration-none text-white icon-link">
+                                <i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://github.com/barozzxb" target="_blank"
+                                class="text-decoration-none text-white icon-link">
+                                <i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/baotrspr.04/" target="_blank"
+                                class="text-decoration-none text-white icon-link">
+                                <i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/baotrspr/" target="_blank"
+                                class="text-decoration-none text-white icon-link">
+                                <i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/@barozzxb" target="_blank"
+                                class="text-decoration-none text-white icon-link">
+                                <i class="fa-brands fa-youtube"></i></a>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -86,9 +99,85 @@
         </div>
     </div>
 
+    <div class="line">
 
+    </div>
 
+    <div class="row d-flex align-items-center justify-content-around h-100 p-5" id="skills">
+        <div class="d-flex flex-column justify-content-center h-100">
+            <div class="section-text">
+                <h1 class="normal-title" data-i18n="skills-title"></h1>
+                <p class="about-description" data-i18n="skills-description"></p>
+            </div>
+            <div class="card-list">
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/html5.png" alt="HTML5" />
+                    <div class="text-center">
+                        <p class="card-custom-title">HTML5</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/css3.png" alt="CSS3" />
+                    <div class="text-center">
+                        <p class="card-custom-title">CSS3</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/springboot.png" alt="JavaScript" />
+                    <div class="text-center">
+                        <p class="card-custom-title">JavaScript</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/reactjs.svg" alt="React" />
+                    <div class="text-center">
+                        <p class="card-custom-title">React</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/springboot.png" alt="Spring Boot" />
+                    <div class="text-center">
+                        <p class="card-custom-title">Spring Boot</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/mysql.png" alt="MySQL" />
+                    <div class="text-center">
+                        <p class="card-custom-title">MySQL</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/icons/reactjs.svg" alt="Server" />
+                    <div class="text-center">
+                        <p class="card-custom-title">Server</p>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+
+    </div>
+
+    <div class="line">
+
+    </div>
+
+    <div class="row d-flex align-items-center justify-content-around h-100 p-5" id="projects">
+        <div class="section-text">
+            <h1 class="animated-title" data-i18n="projects-title"></h1>
+            <p class="about-description" data-i18n="projects-description"></p>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="container">
+                project 1
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="container">
+                project 2
+            </div>
+    </div>
     <script src="./js/lang.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
